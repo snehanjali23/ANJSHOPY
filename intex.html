@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANJ SHOPI - Online Fashion Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #ff66b2, #800080);
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #ffffff;
+            color: #800080;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff66b2;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #800080;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1200x600/?fashion') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 50px;
+        }
+        .hero-content {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .categories {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+        }
+        .category {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            color: #800080;
+            text-align: center;
+        }
+        .products {
+            text-align: center;
+            padding: 50px;
+        }
+        .product-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .product {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            color: #800080;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">ANJ SHOPI</div>
+        <nav>
+            <ul>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Kids</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Exclusive Fashion for Everyone</h1>
+            <p>Discover the latest trends in fashion</p>
+            <button>Shop Now</button>
+        </div>
+    </section>
+    
+    <section class="categories">
+        <div class="category">Anarkali</div>
+        <div class="category">Kurti Set</div>
+        <div class="category">Dupattas</div>
+        <div class="category">Skirts</div>
+        <div class="category">Shirts</div>
+    </section>
+    
+    <section class="categories">
+        <div class="category">Cotton</div>
+        <div class="category">Silk</div>
+        <div class="category">Pattu</div>
+    </section>
+    
+    <section class="products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://source.unsplash.com/300x300/?handbag" alt="Bag">
+                <p>Stylish Handbag</p>
+                <span>$320.00</span>
+            </div>
+            <div class="product">
+                <img src="https://source.unsplash.com/300x300/?fashion-bag" alt="Bag">
+                <p>Elegant Purse</p>
+                <span>$465.00</span>
+            </div>
+            <div class="product">
+                <img src="https://source.unsplash.com/300x300/?shoes" alt="Shoes">
+                <p>Designer Heels</p>
+                <span>$395.00</span>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
